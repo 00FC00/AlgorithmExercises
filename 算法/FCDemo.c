@@ -217,7 +217,7 @@ void factorial(void) {
  
  问题：大数相乘，分解数值，求解，合并，运用分治解决思路
  */
-char *result = '\0';
+char *result;
 int pr = 1;
 
 void getFill(char *a, char *b, int ia, int ja, int ib, int jb, int tbool, int move) {
