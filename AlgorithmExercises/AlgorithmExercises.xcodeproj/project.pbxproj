@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60DB64522C4FA616005079D8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DB64512C4FA616005079D8 /* main.c */; };
+		60DB645A2C4FACA6005079D8 /* chicken_count.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DB64592C4FACA6005079D8 /* chicken_count.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		60DB644E2C4FA616005079D8 /* AlgorithmExercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmExercises; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DB64512C4FA616005079D8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		60DB64582C4FACA6005079D8 /* chicken_count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chicken_count.h; sourceTree = "<group>"; };
+		60DB64592C4FACA6005079D8 /* chicken_count.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chicken_count.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,26 @@
 			isa = PBXGroup;
 			children = (
 				60DB64512C4FA616005079D8 /* main.c */,
+				60DB645B2C4FACEE005079D8 /* include */,
+				60DB645C2C4FAD01005079D8 /* src */,
 			);
 			path = AlgorithmExercises;
+			sourceTree = "<group>";
+		};
+		60DB645B2C4FACEE005079D8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				60DB64582C4FACA6005079D8 /* chicken_count.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		60DB645C2C4FAD01005079D8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				60DB64592C4FACA6005079D8 /* chicken_count.c */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60DB64522C4FA616005079D8 /* main.c in Sources */,
+				60DB645A2C4FACA6005079D8 /* chicken_count.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
