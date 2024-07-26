@@ -10,7 +10,8 @@
 //#include "arithmetic_symbol.h"
 //#include "rabbit_reproduction.h"
 //#include "bank_cash.h"
-#include "hanoi_tower.h"
+//#include "hanoi_tower.h"
+#include "factorial.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -25,9 +26,10 @@ int main(int argc, const char * argv[]) {
 //    rabbit_reproduction();
 //    // 4.银行存款问题
 //    bank_cash();
-    // 5.汉诺塔问题
-    hanoi_tower();
-    
+//    // 5.汉诺塔问题
+//    hanoi_tower();
+    // 6.递归阶乘算法
+    factorial();
     
     
     return 0;

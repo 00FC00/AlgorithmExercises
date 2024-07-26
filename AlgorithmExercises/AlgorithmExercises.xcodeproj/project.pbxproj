@@ -13,6 +13,7 @@
 		60F3D9F82C536257002121FC /* rabbit_reproduction.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3D9F72C536257002121FC /* rabbit_reproduction.c */; };
 		60F3D9FB2C53774E002121FC /* bank_cash.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3D9FA2C53774E002121FC /* bank_cash.c */; };
 		60F3D9FE2C53808A002121FC /* hanoi_tower.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3D9FD2C53808A002121FC /* hanoi_tower.c */; };
+		60F3DA012C53952D002121FC /* factorial.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3DA002C53952D002121FC /* factorial.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		60F3D9FA2C53774E002121FC /* bank_cash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bank_cash.c; sourceTree = "<group>"; };
 		60F3D9FC2C53808A002121FC /* hanoi_tower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hanoi_tower.h; sourceTree = "<group>"; };
 		60F3D9FD2C53808A002121FC /* hanoi_tower.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hanoi_tower.c; sourceTree = "<group>"; };
+		60F3D9FF2C53952D002121FC /* factorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = factorial.h; sourceTree = "<group>"; };
+		60F3DA002C53952D002121FC /* factorial.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = factorial.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 				60F3D9F62C536257002121FC /* rabbit_reproduction.h */,
 				60F3D9F92C53774E002121FC /* bank_cash.h */,
 				60F3D9FC2C53808A002121FC /* hanoi_tower.h */,
+				60F3D9FF2C53952D002121FC /* factorial.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -99,6 +103,7 @@
 				60F3D9F72C536257002121FC /* rabbit_reproduction.c */,
 				60F3D9FA2C53774E002121FC /* bank_cash.c */,
 				60F3D9FD2C53808A002121FC /* hanoi_tower.c */,
+				60F3DA002C53952D002121FC /* factorial.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60DB645F2C50AD74005079D8 /* arithmetic_symbol.c in Sources */,
+				60F3DA012C53952D002121FC /* factorial.c in Sources */,
 				60DB64522C4FA616005079D8 /* main.c in Sources */,
 				60DB645A2C4FACA6005079D8 /* chicken_count.c in Sources */,
 				60F3D9FE2C53808A002121FC /* hanoi_tower.c in Sources */,
