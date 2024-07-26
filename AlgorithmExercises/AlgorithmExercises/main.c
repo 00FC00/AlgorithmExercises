@@ -9,7 +9,8 @@
 //#include "chicken_count.h"
 //#include "arithmetic_symbol.h"
 //#include "rabbit_reproduction.h"
-#include "bank_cash.h"
+//#include "bank_cash.h"
+#include "hanoi_tower.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -22,8 +23,10 @@ int main(int argc, const char * argv[]) {
 //    arithmetic_symbol();
 //    // 3.兔子繁殖问题
 //    rabbit_reproduction();
-    // 4.银行存款问题
-    bank_cash();
+//    // 4.银行存款问题
+//    bank_cash();
+    // 5.汉诺塔问题
+    hanoi_tower();
     
     
     
