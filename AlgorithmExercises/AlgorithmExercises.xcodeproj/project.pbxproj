@@ -11,6 +11,7 @@
 		60DB645A2C4FACA6005079D8 /* chicken_count.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DB64592C4FACA6005079D8 /* chicken_count.c */; };
 		60DB645F2C50AD74005079D8 /* arithmetic_symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DB645E2C50AD74005079D8 /* arithmetic_symbol.c */; };
 		60F3D9F82C536257002121FC /* rabbit_reproduction.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3D9F72C536257002121FC /* rabbit_reproduction.c */; };
+		60F3D9FB2C53774E002121FC /* bank_cash.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3D9FA2C53774E002121FC /* bank_cash.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		60DB645E2C50AD74005079D8 /* arithmetic_symbol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arithmetic_symbol.c; sourceTree = "<group>"; };
 		60F3D9F62C536257002121FC /* rabbit_reproduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rabbit_reproduction.h; sourceTree = "<group>"; };
 		60F3D9F72C536257002121FC /* rabbit_reproduction.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = rabbit_reproduction.c; sourceTree = "<group>"; };
+		60F3D9F92C53774E002121FC /* bank_cash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bank_cash.h; sourceTree = "<group>"; };
+		60F3D9FA2C53774E002121FC /* bank_cash.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bank_cash.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 				60DB64582C4FACA6005079D8 /* chicken_count.h */,
 				60DB645D2C50AD74005079D8 /* arithmetic_symbol.h */,
 				60F3D9F62C536257002121FC /* rabbit_reproduction.h */,
+				60F3D9F92C53774E002121FC /* bank_cash.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -89,6 +93,7 @@
 				60DB64592C4FACA6005079D8 /* chicken_count.c */,
 				60DB645E2C50AD74005079D8 /* arithmetic_symbol.c */,
 				60F3D9F72C536257002121FC /* rabbit_reproduction.c */,
+				60F3D9FA2C53774E002121FC /* bank_cash.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				60DB64522C4FA616005079D8 /* main.c in Sources */,
 				60DB645A2C4FACA6005079D8 /* chicken_count.c in Sources */,
 				60F3D9F82C536257002121FC /* rabbit_reproduction.c in Sources */,
+				60F3D9FB2C53774E002121FC /* bank_cash.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

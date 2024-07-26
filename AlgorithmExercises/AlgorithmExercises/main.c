@@ -8,7 +8,8 @@
 #include <stdio.h>
 //#include "chicken_count.h"
 //#include "arithmetic_symbol.h"
-#include "rabbit_reproduction.h"
+//#include "rabbit_reproduction.h"
+#include "bank_cash.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -19,8 +20,10 @@ int main(int argc, const char * argv[]) {
 //    chicken_count();
 //    // 2.填写运算符
 //    arithmetic_symbol();
-    // 3.兔子繁殖问题
-    rabbit_reproduction();
+//    // 3.兔子繁殖问题
+//    rabbit_reproduction();
+    // 4.银行存款问题
+    bank_cash();
     
     
     
