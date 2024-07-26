@@ -11,7 +11,8 @@
 //#include "rabbit_reproduction.h"
 //#include "bank_cash.h"
 //#include "hanoi_tower.h"
-#include "factorial.h"
+//#include "factorial.h"
+#include "large_numbers_multiplying.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -28,8 +29,10 @@ int main(int argc, const char * argv[]) {
 //    bank_cash();
 //    // 5.汉诺塔问题
 //    hanoi_tower();
-    // 6.递归阶乘算法
-    factorial();
+//    // 6.递归阶乘算法
+//    factorial();
+    // 7.大数相乘
+    large_numbers_multiplying();
     
     
     return 0;

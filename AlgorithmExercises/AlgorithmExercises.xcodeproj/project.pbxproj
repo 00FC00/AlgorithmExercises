@@ -14,6 +14,7 @@
 		60F3D9FB2C53774E002121FC /* bank_cash.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3D9FA2C53774E002121FC /* bank_cash.c */; };
 		60F3D9FE2C53808A002121FC /* hanoi_tower.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3D9FD2C53808A002121FC /* hanoi_tower.c */; };
 		60F3DA012C53952D002121FC /* factorial.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3DA002C53952D002121FC /* factorial.c */; };
+		60F3DA0A2C539E79002121FC /* large_numbers_multiplying.c in Sources */ = {isa = PBXBuildFile; fileRef = 60F3DA092C539E79002121FC /* large_numbers_multiplying.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		60F3D9FD2C53808A002121FC /* hanoi_tower.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hanoi_tower.c; sourceTree = "<group>"; };
 		60F3D9FF2C53952D002121FC /* factorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = factorial.h; sourceTree = "<group>"; };
 		60F3DA002C53952D002121FC /* factorial.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = factorial.c; sourceTree = "<group>"; };
+		60F3DA082C539E79002121FC /* large_numbers_multiplying.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = large_numbers_multiplying.h; sourceTree = "<group>"; };
+		60F3DA092C539E79002121FC /* large_numbers_multiplying.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = large_numbers_multiplying.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				60DB64512C4FA616005079D8 /* main.c */,
+				60F3DA082C539E79002121FC /* large_numbers_multiplying.h */,
+				60F3DA092C539E79002121FC /* large_numbers_multiplying.c */,
 				60DB645B2C4FACEE005079D8 /* include */,
 				60DB645C2C4FAD01005079D8 /* src */,
 			);
@@ -172,6 +177,7 @@
 				60F3D9FE2C53808A002121FC /* hanoi_tower.c in Sources */,
 				60F3D9F82C536257002121FC /* rabbit_reproduction.c in Sources */,
 				60F3D9FB2C53774E002121FC /* bank_cash.c in Sources */,
+				60F3DA0A2C539E79002121FC /* large_numbers_multiplying.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
