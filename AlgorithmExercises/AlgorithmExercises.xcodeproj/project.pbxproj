@@ -79,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				60DB64512C4FA616005079D8 /* main.c */,
-				60F3DA082C539E79002121FC /* large_numbers_multiplying.h */,
-				60F3DA092C539E79002121FC /* large_numbers_multiplying.c */,
 				60DB645B2C4FACEE005079D8 /* include */,
 				60DB645C2C4FAD01005079D8 /* src */,
 			);
@@ -96,6 +94,7 @@
 				60F3D9F92C53774E002121FC /* bank_cash.h */,
 				60F3D9FC2C53808A002121FC /* hanoi_tower.h */,
 				60F3D9FF2C53952D002121FC /* factorial.h */,
+				60F3DA082C539E79002121FC /* large_numbers_multiplying.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -109,6 +108,7 @@
 				60F3D9FA2C53774E002121FC /* bank_cash.c */,
 				60F3D9FD2C53808A002121FC /* hanoi_tower.c */,
 				60F3DA002C53952D002121FC /* factorial.c */,
+				60F3DA092C539E79002121FC /* large_numbers_multiplying.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
