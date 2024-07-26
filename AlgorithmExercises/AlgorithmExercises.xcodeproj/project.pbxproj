@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		60DB64522C4FA616005079D8 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DB64512C4FA616005079D8 /* main.c */; };
 		60DB645A2C4FACA6005079D8 /* chicken_count.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DB64592C4FACA6005079D8 /* chicken_count.c */; };
+		60DB645F2C50AD74005079D8 /* arithmetic_symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 60DB645E2C50AD74005079D8 /* arithmetic_symbol.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		60DB64512C4FA616005079D8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		60DB64582C4FACA6005079D8 /* chicken_count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chicken_count.h; sourceTree = "<group>"; };
 		60DB64592C4FACA6005079D8 /* chicken_count.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chicken_count.c; sourceTree = "<group>"; };
+		60DB645D2C50AD74005079D8 /* arithmetic_symbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arithmetic_symbol.h; sourceTree = "<group>"; };
+		60DB645E2C50AD74005079D8 /* arithmetic_symbol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = arithmetic_symbol.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				60DB64582C4FACA6005079D8 /* chicken_count.h */,
+				60DB645D2C50AD74005079D8 /* arithmetic_symbol.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -79,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				60DB64592C4FACA6005079D8 /* chicken_count.c */,
+				60DB645E2C50AD74005079D8 /* arithmetic_symbol.c */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DB645F2C50AD74005079D8 /* arithmetic_symbol.c in Sources */,
 				60DB64522C4FA616005079D8 /* main.c in Sources */,
 				60DB645A2C4FACA6005079D8 /* chicken_count.c in Sources */,
 			);

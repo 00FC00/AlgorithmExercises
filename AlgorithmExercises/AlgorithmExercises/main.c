@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include "chicken_count.h"
+#include "arithmetic_symbol.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -14,7 +15,9 @@ int main(int argc, const char * argv[]) {
     printf("*****************************\n");
     
     // 1.枚举法解决"百元买百鸡"问题
-    chicken_count();
+    //chicken_count();
+    // 2.填写运算符
+    arithmetic_symbol();
     
     
     
